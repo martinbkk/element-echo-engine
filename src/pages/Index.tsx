@@ -2,11 +2,13 @@
 import { useEffect } from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import About from "../components/About";
 import Features from "../components/Features";
+import Tokenomics from "../components/Tokenomics";
+import FAQ from "../components/FAQ";
 
 const Index = () => {
   useEffect(() => {
-    // Smooth scroll behavior
     document.documentElement.style.scrollBehavior = "smooth";
   }, []);
 
@@ -15,7 +17,10 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <About />
         <Features />
+        <Tokenomics />
+        <FAQ />
       </main>
     </div>
   );

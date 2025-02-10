@@ -37,11 +37,15 @@ const Hero = () => {
           className="relative"
         >
           <div className="relative w-full aspect-square">
-            <img
-              src="/lovable-uploads/07a89688-88d1-4661-b487-0fbbcdc63ca0.png"
-              alt="MYRO Character"
-              className="w-full h-full object-contain float-animation"
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
+            >
+              <source src="/lovable-uploads/Roberto.mp4" type="video/mp4" />
+            </video>
             <div className="absolute inset-0 bg-gradient-to-t from-myro-dark to-transparent" />
           </div>
         </motion.div>
