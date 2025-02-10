@@ -9,7 +9,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 px-6 py-4">
       <nav className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="/" className="flex items-center space-x-2">
-          <img src="/lovable-uploads/07a89688-88d1-4661-b487-0fbbcdc63ca0.png" alt="Fruten Fraten Logo" className="w-10 h-10" />
+          <img src="/lovable-uploads/07a89688-88d1-4661-b487-0fbbcdc63ca0.jpg" alt="Fruten Fraten Logo" className="w-10 h-10" />
           <span className="text-xl font-bold text-white">Fruten Fraten</span>
         </a>
 
