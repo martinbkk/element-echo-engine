@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 
 const features = [
   {
-    title: "Digital Pet NFTs",
+    title: "Digital Fruten Fraten NFTs",
     description: "Unique, collectible digital companions with proof of ownership on the blockchain",
     icon: "🐾",
   },
   {
     title: "Interactive App",
-    description: "Engage with your MYRO through our state-of-the-art mobile application",
+    description: "Engage with your Fruten Fraten through our state-of-the-art mobile application",
     icon: "📱",
   },
   {
-    title: "MYRO Rewards",
+    title: "Fruten Fraten Rewards",
     description: "Earn rewards for taking care of and interacting with your digital pet",
     icon: "🏆",
   },
