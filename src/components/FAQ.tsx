@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const faqItems = [
   {
-    question: "What is Fruten Raten?",
-    answer: "Fruten Raten is a next-generation digital platform that combines blockchain technology with innovative features to create a unique crypto ecosystem."
+    question: "What is Fruten Fraten?",
+    answer: "Fruten Fraten is a next-generation digital platform that combines blockchain technology with innovative features to create a unique crypto ecosystem."
   },
   {
     question: "How can I participate?",
