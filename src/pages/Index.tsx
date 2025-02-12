@@ -6,6 +6,7 @@ import About from "../components/About";
 import Features from "../components/Features";
 import Tokenomics from "../components/Tokenomics";
 import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
 
 const Index = () => {
   useEffect(() => {
@@ -22,6 +23,7 @@ const Index = () => {
         <Tokenomics />
         <FAQ />
       </main>
+      <Footer />
     </div>
   );
 };

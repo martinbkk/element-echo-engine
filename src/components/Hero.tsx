@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Volume2, VolumeX } from "lucide-react";
 import { useState } from "react";
@@ -25,7 +24,7 @@ const Hero = () => {
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             Welcome to{" "}
-            <span className="bg-gradient-to-r from-myro-cyan to-myro-purple bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-myro-cyan to-myro-purple bg-clip-text text-transparent hover:scale-115 inline-block transition-transform duration-300">
               FRUTEN FRATEN
             </span>
           </h1>
