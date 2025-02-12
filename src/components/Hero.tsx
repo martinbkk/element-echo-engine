@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-20 px-6">
+    <section className="min-h-screen flex items-center justify-center pt-20 px-6 relative">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center md:text-left"
+          className="text-center md:text-left relative z-10"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             Welcome to{" "}
@@ -34,20 +34,18 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="relative"
+          className="relative w-full aspect-square"
         >
-          <div className="relative w-full aspect-square">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover"
-            >
-              <source src="/lovable-uploads/Roberto.mp4" type="video/mp4" />
-            </video>
-            <div className="absolute inset-0 bg-gradient-to-t from-myro-dark to-transparent" />
-          </div>
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover rounded-2xl"
+          >
+            <source src="/lovable-uploads/Roberto.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </motion.div>
       </div>
     </section>
