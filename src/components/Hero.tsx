@@ -18,14 +18,14 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-xl text-white/80 mb-8">
-            A unique memecoin project built on blockchain
+            The next generation digital companion for crypto enthusiasts
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <button className="px-8 py-3 rounded-full bg-myro-cyan text-black font-semibold hover:bg-opacity-90 transition-all">
-              Buy on Exchange
+              Get Started
             </button>
             <button className="px-8 py-3 rounded-full border border-myro-cyan text-white font-semibold hover:bg-myro-cyan/10 transition-all">
-              View Whitepaper
+              Learn More
             </button>
           </div>
         </motion.div>
@@ -36,11 +36,16 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="relative w-full aspect-square"
         >
-          <img 
-            src="/lovable-uploads/07a89688-88d1-4661-b487-0fbbcdc63ca0.png" 
-            alt="Fruten Fraten Mascot"
-            className="w-full h-full object-contain rounded-2xl"
-          />
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover rounded-2xl"
+          >
+            <source src="/lovable-uploads/Roberto.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </motion.div>
       </div>
     </section>
