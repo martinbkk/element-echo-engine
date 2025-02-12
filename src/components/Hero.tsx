@@ -4,7 +4,7 @@ import { Volume2, VolumeX } from "lucide-react";
 import { useState } from "react";
 
 const Hero = () => {
-  const [isMuted, setIsMuted] = useState(true);
+  const [isMuted, setIsMuted] = useState(false); // Start unmuted
 
   const toggleSound = () => {
     const video = document.querySelector('video');
@@ -29,17 +29,9 @@ const Hero = () => {
               FRUTEN FRATEN
             </span>
           </h1>
-          <div className="text-xl text-white/80 mb-8 space-y-4">
-            <p>
-              What is Fruten Fraten? Well, that's the beauty of it, it doesn't have one clear meaning, and that's exactly the point. It's a mindset, a movement, a little bit of chaos, and a whole lot of fun.
-            </p>
-            <p>
-              Born in a smoky coffee shop in Barcelona, Fruten Fraten started as an inside joke and somehow turned into a way of life. It's about doing your thing, owning your energy, and not giving a damn what anyone thinks. If you believe in FRUTEN FRATEN, you're already part of it. If you don't, well… you'll get there.
-            </p>
-            <p>
-              So welcome, stay weird, stay wild and most importantly, stay Fruten Fraten!
-            </p>
-          </div>
+          <p className="text-xl text-white/80 mb-8">
+            No Rules, Just Vibes! The Wild Side of Life. Own It.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <button className="px-8 py-3 rounded-full bg-myro-cyan text-black font-semibold hover:bg-opacity-90 transition-all">
               Get Started
@@ -66,7 +58,6 @@ const Hero = () => {
           <video
             autoPlay
             loop
-            muted
             playsInline
             className="w-full h-full object-cover rounded-2xl"
           >
